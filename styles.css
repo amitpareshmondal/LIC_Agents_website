@@ -1,0 +1,130 @@
+:root{
+    --blue:#004E8F;
+    --yellow: #FFCB08;
+    font-size: 16px;
+}
+.navbar-custom{
+    background-color: var(--yellow) ;
+}
+#nav-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+#about-image{
+    transform: scale(1.5);
+}
+.flex-container {
+    position: relative;
+    top:8rem;
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center; /* center items horizontally */
+  align-items: center; /* center items vertically */
+  }
+  
+  .round-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  @media (max-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .contact-container{
+      flex-direction: column;
+    }
+  }
+  #name{
+    border-radius: 15px;
+    border: 0;
+    background-color: aliceblue;
+  }
+  #email{
+    margin-top: 1rem;
+    border-radius: 15px;
+    border: 0;
+    background-color: aliceblue;
+  }
+  #message{
+    margin-top: 1rem;
+    border-radius: 15px;
+    border: 0;
+    background-color: aliceblue;
+  }
+  .submit{
+    border: 0;
+    background-color: #FFCB08;
+    border-radius: 15px;
+    color: #004E8F;
+    width: 75px;
+    font-weight: bolder;
+    position: relative;
+    left:150px;
+    margin-top: 20px;
+  }
+  .contact-container{
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  iframe{
+    border-radius: 15px;
+    box-shadow: inset;
+  }
+  .nav-button{
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #004E8F;
+    color: #ffffff;
+    height: 40px;
+  }
+  .nav-link{
+    color: #004E8F !important;
+  }
+  .nav-link:hover{
+    color: #ffffff!important;
+    background-color: #004E8F;
+    cursor: pointer;
+  }
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .about-left{
+    position: relative;
+    top: 4rem;
+  }
+  .about-right{
+   
+    text-align: center;
+    width: 35vw;
+  }
+  #About{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 80vh;
+  }
+  #Services{
+    margin-top: 100px;
+    background-color: #EEEEEE;
+    height: 60vh;
+  }
+  #testimonial{
+    margin-top: 30px;
+  }
+  #contact{
+    background-color: #EEEEEE;
+    height: 80vh;
+  }
