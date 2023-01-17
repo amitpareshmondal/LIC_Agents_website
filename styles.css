@@ -39,10 +39,10 @@
       flex-direction: column;
     }
     .banner{
-      height: 50vh;
+      height: 30vh;
     }
     #Services{
-      height: 115vh !important;
+      height: 80vh !important;
     }
     #contact{
      
