@@ -16,7 +16,7 @@
 }
 .flex-container {
     position: relative;
-    top:8rem;
+    top:2rem;
     display: flex;
     gap: 5rem;
     flex-wrap: wrap;
@@ -36,6 +36,16 @@
     }
     .contact-container{
       flex-direction: column;
+    }
+    .banner{
+      height: 80vh;
+      width: 5vh;
+    }
+    #Services{
+      height: 130vh !important;
+    }
+    #contact{
+      height: 110vh !important;
     }
   }
   #name{
@@ -108,18 +118,17 @@
   }
   .about-right{
    
-    text-align: center;
-    width: 35vw;
+    text-align:center;
+    width: 100vw;
   }
   #About{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 80vh;
+    height: 85vh;
+    overflow: hidden;
   }
   #Services{
-    margin-top: 100px;
     background-color: #EEEEEE;
-    height: 60vh;
+    height: 50vh;
+    overflow: hidden;
   }
   #testimonial{
     margin-top: 30px;
