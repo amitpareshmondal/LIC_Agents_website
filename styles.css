@@ -33,19 +33,19 @@
   @media (max-width: 768px) {
     .flex-container {
       flex-direction: column;
+      gap: 2rem!important;
     }
     .contact-container{
       flex-direction: column;
     }
     .banner{
-      height: 80vh;
-      width: 5vh;
+      height: 50vh;
     }
     #Services{
-      height: 130vh !important;
+      height: 115vh !important;
     }
     #contact{
-      height: 110vh !important;
+     
     }
   }
   #name{
